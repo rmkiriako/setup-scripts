@@ -1,50 +1,27 @@
 # Workstation Setup
 
-This project automates the process of setting up a new Mac OS X based development machine using a simple [Bash](https://www.gnu.org/software/bash/) script.
+This project automates the process of setting up a new Windows based development machine using a simple [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6) script.
 
-It was inspired by work done on [Pivotal Labs' Workstation Setup](https://github.com/pivotal/workstation-setup), which has been open sourced to be used and modified by anyone.
+It was inspired by work done on [Michael Oleske's Setup Scripts](https://github.com/moleske/setup-scripts), which has been open sourced to be used and modified by anyone.
 
-I created this fork of that project because the Pivotal Workstation Setup is very opinionated on configuration settings and will **override** certain configurations (e.g. my `vim` configurations)
+I created this fork of that project to more closely match my [Mac Workstation Setup](https://github.com/rmkiriako/workstation-setup-mac)
 
 
 ## Pre-Requisites
 
 In order to use this, you will need:
  
-* To be running [Mac OS X El Capitan](https://itunes.apple.com/us/app/os-x-el-capitan/id1018109117)
-* To have an account with [`sudo`](https://en.wikipedia.org/wiki/Sudo) access
+* To have a Windows box that meets the [Windows PowerShell System Requirements](https://docs.microsoft.com/en-us/powershell/scripting/setup/windows-powershell-system-requirements?view=powershell-6)
+* To have an account with **admin** access
 
 
 ## Installation
 
-To install, simply open up the OS X Terminal and run the following commands:
- 
-```
-mkdir -p ~/workspace
-cd ~/workspace
-git clone https://github.com/rmkiriako/workstation-setup-mac.git
-cd workstation-setup-mac
-./setup.sh
-```
+To run the installation:
 
-**IMPORTANT:**
-
-* While all of this is mostly automated, you will get prompted for your password several times, so hang around and keep an eye on the screen.
-
-
-## Post Installation
-
-After you complete the installation, you will need to do some manual tasks to get everything working correctly.
-
-A list of post installation items can be seen [here](./POST_INSTALLATION.md)
-
-
-## Optional Installs
-
-After installing the below items, you may want to install a few other tools that I find very useful.
-
-A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
-
+* Download the latest version of this setup from [here](https://github.com/rmkiriako/workstation-setup-windows/archive/master.zip)
+* Extract the contents of the zip file somewhere
+* Execute the command `setup.ps1` in a command prompt
 
 ## What's Installed?
 
