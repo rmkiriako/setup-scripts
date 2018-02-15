@@ -11,6 +11,16 @@ function InstallBrowsers
     choco install googlechrome -y
 }
 
+function InstallCdAndDvdTools
+{
+    choco install virtualclonedrive -y
+}
+
+function InstallChocolatey
+{
+    iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+}
+
 function InstallCloudTools
 {
     choco install cloudfoundry-cli -y
@@ -20,14 +30,50 @@ function InstallCloudTools
     heroku plugins:install heroku-pg-extras
 }
 
-if ( (IsAdministrator) -eq $true) {
-    echo 'Installing Chocolatey'
-    iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
-    
-    echo 'Installing Browsers'
-    InstallBrowsers
-
-    echo 'Installing Cloud Tools'
-    InstallCloudTools
+function InstallCommunicationTools
+{
+    choco install skype -y
+    choco install slack -y
+    choco install teamviewer -y
 }
+
+function InstallDatabaseTools
+{
+    choco install pgadmin4 -y
+    choco install robo3t -y
+}
+
+function InstallFileSharingTools
+{
+    choco install dropbox -y
+    choco install filezilla -y
+    choco install googledrive -y  
+}
+
+if ( (IsAdministrator) -eq $false) {
+    echo "Please run this with an ADMIN console"
+    [Environment]::Exit(1)
+}
+
+echo 'Installing Chocolatey'
+InstallChocolatey
+
+echo 'Installing Browsers'
+InstallBrowsers
+
+echo 'Installing CD/DVD Tools'
+InstallCdAndDvdTools
+
+echo 'Installing Cloud Tools'
+InstallCloudTools
+
+echo 'Installing Communication Tools'
+InstallCommunicationTools
+
+echo 'Installing Database Tools'
+InstallDatabaseTools
+
+echo 'Installing File Sharing Tools'
+InstallFileSharingTools
+
 

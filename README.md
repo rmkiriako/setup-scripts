@@ -41,34 +41,28 @@ To run the installation:
 * Cloud Foundry CLI
 * Heroku CLI
 
-## TO-DO
-
 ### CD / DVD
 
-* Burn
-* DVD Styler
-* Handbrake
-
+* Virtual CloneDrive
 
 ### Communication
 
-* CoRD
-* Screenhero
-* Slack
 * Skype
+* Slack
 * Teamviewer
 
 ### Database
 
 * pgAdmin4 Management Tools for PostgreSQL
-* Robo-3T (formerly RoboMongo) MongoDB Client	
-* SQuirreL SQL Client
+* Robo-3T (formerly RoboMongo) MongoDB Client
 
 ### File Sharing
 
 * Dropbox
 * FileZilla
-* Google Backup and Sync
+* Google Drive
+
+## TO-DO
 
 ### Java Development
 
