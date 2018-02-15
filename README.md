@@ -21,7 +21,9 @@ To run the installation:
 
 * Download the latest version of this setup from [here](https://github.com/rmkiriako/workstation-setup-windows/archive/master.zip)
 * Extract the contents of the zip file somewhere
-* Execute the command `setup.ps1` in a command prompt
+* Open the command prompt **[as an administrator](http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1)**
+* Navigate to where the zip file was extracted
+* Execute the command `powershell -File setup.ps1`
 
 ## What's Installed?
 
