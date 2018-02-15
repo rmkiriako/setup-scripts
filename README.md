@@ -23,7 +23,11 @@ To run the installation:
 * Extract the contents of the zip file somewhere
 * Open the command prompt **[as an administrator](http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1)**
 * Navigate to where the zip file was extracted
-* Execute the command `powershell -File setup.ps1`
+* Execute the below command:
+
+  ```
+  powershell -File setup.ps1
+  ```
 
 ## What's Installed?
 
@@ -31,6 +35,8 @@ To run the installation:
 
 * Firefox
 * Google Chrome
+
+## TO-DO
 
 ### CD / DVD
 
