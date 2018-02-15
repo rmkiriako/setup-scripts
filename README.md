@@ -2,7 +2,7 @@
 
 This project automates the process of setting up a new Windows based development machine using a simple [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6) script.
 
-It was inspired by work done on [Michael Oleske's Setup Scripts](https://github.com/moleske/setup-scripts), which has been open sourced to be used and modified by anyone.
+It was inspired by work done on [Michael Oleske's Setup Scripts](https://github.com/moleske/setup-scripts), which have been open sourced to be used and modified by anyone.
 
 I created this fork of that project to more closely match my [Mac Workstation Setup](https://github.com/rmkiriako/workstation-setup-mac)
 
