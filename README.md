@@ -36,6 +36,11 @@ To run the installation:
 * Firefox
 * Google Chrome
 
+### Cloud
+
+* Cloud Foundry CLI
+* Heroku CLI
+
 ## TO-DO
 
 ### CD / DVD
@@ -44,10 +49,6 @@ To run the installation:
 * DVD Styler
 * Handbrake
 
-### Cloud
-
-* Cloud Foundry CLI
-* Heroku CLI
 
 ### Communication
 
