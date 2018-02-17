@@ -1,3 +1,4 @@
+. 'C:\workstation-setup-windows\banner-function.ps1'
 . 'C:\workstation-setup-windows\install-functions.ps1'
 . 'C:\workstation-setup-windows\utilities.ps1'
 
@@ -6,61 +7,61 @@ if ( (IsAdministrator) -eq $false) {
     [Environment]::Exit(1)
 }
 
-echo 'Installing Chocolatey'
+Banner 'Installing Chocolatey'
 InstallChocolatey
 
-echo 'Installing Browsers'
+Banner 'Installing Browsers'
 InstallBrowsers
 
-echo 'Installing CD/DVD Tools'
+Banner 'Installing CD/DVD Tools'
 InstallCdAndDvdTools
 
-echo 'Installing Cloud Tools'
+Banner 'Installing Cloud Tools'
 InstallCloudTools
 
-echo 'Installing Communication Tools'
+Banner 'Installing Communication Tools'
 InstallCommunicationTools
 
-echo 'Installing Database Tools'
+Banner 'Installing Database Tools'
 InstallDatabaseTools
 
-echo 'Installing File Sharing Tools'
+Banner 'Installing File Sharing Tools'
 InstallFileSharingTools
 
-echo 'Installing JavaScript Tools'
+Banner 'Installing JavaScript Tools'
 InstallJavascriptTools
 
-echo 'Installing Java and Tools'
+Banner 'Installing Java and Tools'
 InstallJavaAndTools
 
-echo 'Installing Markdown Editor'
+Banner 'Installing Markdown Editor'
 InstallMarkdownEditor
 
-echo 'Installing Media Tools'
+Banner 'Installing Media Tools'
 InstallMediaTools
 
-echo 'Installing Network Tools'
+Banner 'Installing Network Tools'
 InstallNetworkTools
 
-echo 'Installing PDF Tools'
+Banner 'Installing PDF Tools'
 InstallPdfTools
 
-echo 'Installing Python Tools'
+Banner 'Installing Python Tools'
 InstallPythonAndTools
 
-echo 'Installing Source Code Management Tools'
+Banner 'Installing Source Code Management Tools'
 InstallSourceCodeManagementTools
 
-echo 'Installing Text Editors'
+Banner 'Installing Text Editors'
 InstallTextEditors
 
-echo 'Installing Terminal Commands'
+Banner 'Installing Terminal Commands'
 InstallTerminalCommands
 
-echo 'Installing Utilities'
+Banner 'Installing Utilities'
 InstallUtilities
 
-echo 'Installing Virtualization Tools'
+Banner 'Installing Virtualization Tools'
 InstallVirtualizationTools
 
-echo 'WORKSTATION SETUP IS COMPLETE'
+Banner 'WORKSTATION SETUP IS COMPLETE'
