@@ -20,12 +20,17 @@ In order to use this, you will need:
 To run the installation:
 
 * Download the latest version of this setup from [here](https://github.com/rmkiriako/workstation-setup-windows/archive/master.zip)
-* Extract the contents of the zip file somewhere
+
+* Extract the contents of the zip file to your `C:\` drive such that there is a folder called `workstation-setup-windows` with all the scripts within it
+
+    * For example, there should be a `setup.ps1` file at `C:\workstation-setup-windows\setup.ps1`
+
 * Open the command prompt **[as an administrator](http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1)**
-* Navigate to where the zip file was extracted
-* Execute the below command:
+
+* Execute the below commands:
 
   ```
+  cd C:\workstation-setup-windows
   powershell -File setup.ps1
   ```
 
