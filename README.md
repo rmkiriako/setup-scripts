@@ -67,8 +67,6 @@ To run the installation:
 * FileZilla
 * Google Drive
 
-## TO-DO
-
 ### Java Development
 
 * Ant
@@ -85,13 +83,10 @@ To run the installation:
 
 ### Markdown Editor
 
-* MacDown
+* MarkdownPad
 
 ### Media
 
-* 4K Video Downloader
-* Flash Player
-* Soundflower
 * VLC
 
 ### Network Tools
@@ -106,6 +101,7 @@ To run the installation:
 
 ### Python
 
+* Python 3
 * PyCharm IDE
 
 ### Source Code Management
@@ -115,23 +111,16 @@ To run the installation:
 
 ### Text Editors
 
-* Sublime Text
-* TextMate
+* Notepad++
 
 ### Terminal Commands 
 
-* ag
-* unrar
-* wget
+* cygwin
 
 ### Utilities
 
 * 1Password
-* Flycut
-* iTerm 2
-* Jiggler
-* ShiftIt
-* UnrarX
+* 7-Zip
 
 ### Virtualization
 

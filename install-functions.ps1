@@ -42,3 +42,80 @@ function InstallFileSharingTools
     choco install filezilla -y
     choco install googledrive -y  
 }
+
+function InstallJavascriptTools
+{
+    choco install nodejs -y
+
+    npm install --global grunt-cli
+    npm install --global gulp-cli
+}
+
+function InstallJavaAndTools
+{
+    choco install jdk8 -y
+    choco install intellijidea-ultimate -y
+    choco install ant -y
+    choco install gradle -y
+    choco install maven -y
+}
+
+function InstallMarkdownEditor
+{
+    choco install markdownpad2 -y
+}
+
+function InstallMediaTools
+{
+    choco install vlc -y
+}
+
+function InstallNetworkTools
+{
+    npm install newman --global;
+
+    choco install postman -y
+    choco install wireshark -y
+}
+
+function InstallPdfTools
+{
+    choco install pdfsam -y
+}
+
+function InstallPythonAndTools
+{
+    choco install python3 -y
+    choco install pycharm -y
+}
+
+function InstallSourceCodeManagementTools
+{
+    choco install git -y
+    choco install sourcetree -y
+}
+
+function InstallTerminalCommands
+{
+    choco install cygwin --params='"/InstallDir:C:\cygwin /NoStartMenu"' -y
+}
+
+function InstallTextEditors
+{
+    choco install notepadplusplus -y
+}
+
+function InstallUtilities
+{
+    choco install 1password -y
+    choco install 7zip -y
+}
+
+function InstallVirtualizationTools
+{
+    choco install docker -y
+    choco install virtualbox -y
+
+    choco install vagrant
+    vagrant plugin install vagrant-vbguest
+}

@@ -27,4 +27,40 @@ InstallDatabaseTools
 echo 'Installing File Sharing Tools'
 InstallFileSharingTools
 
+echo 'Installing JavaScript Tools'
+InstallJavascriptTools
 
+echo 'Installing Java and Tools'
+InstallJavaAndTools
+
+echo 'Installing Markdown Editor'
+InstallMarkdownEditor
+
+echo 'Installing Media Tools'
+InstallMediaTools
+
+echo 'Installing Network Tools'
+InstallNetworkTools
+
+echo 'Installing PDF Tools'
+InstallPdfTools
+
+echo 'Installing Python Tools'
+InstallPythonAndTools
+
+echo 'Installing Source Code Management Tools'
+InstallSourceCodeManagementTools
+
+echo 'Installing Text Editors'
+InstallTextEditors
+
+echo 'Installing Terminal Commands'
+InstallTerminalCommands
+
+echo 'Installing Utilities'
+InstallUtilities
+
+echo 'Installing Virtualization Tools'
+InstallVirtualizationTools
+
+echo 'WORKSTATION SETUP IS COMPLETE'
