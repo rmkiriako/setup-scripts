@@ -11,7 +11,7 @@ function InstallCdAndDvdTools
 
 function InstallChocolatey
 {
-    iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+    Invoke-Expression ((New-Object Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
 function InstallCloudTools
