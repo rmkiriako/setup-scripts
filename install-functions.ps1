@@ -19,8 +19,8 @@ function InstallCloudTools
     choco install cloudfoundry-cli -y
 
     choco install heroku-cli -y
-    heroku plugins:install heroku-cli-deploy
-    heroku plugins:install heroku-pg-extras
+    C:\Program Files\Heroku\bin\heroku plugins:install heroku-cli-deploy
+    C:\Program Files\Heroku\bin\heroku plugins:install heroku-pg-extras
 }
 
 function InstallCommunicationTools
@@ -116,6 +116,6 @@ function InstallVirtualizationTools
     choco install docker -y
     choco install virtualbox -y
 
-    choco install vagrant
+    choco install vagrant -y
     vagrant plugin install vagrant-vbguest
 }
