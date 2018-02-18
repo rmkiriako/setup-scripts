@@ -31,7 +31,7 @@ To run the installation:
 
   ```
   cd C:\workstation-setup-windows
-  powershell -File setup.ps1
+  powershell -ExecutionPolicy Bypass -File setup.ps1
   ```
 
 ## What's Installed?
