@@ -80,6 +80,7 @@ function InstallNetworkTools
 
 function InstallPdfTools
 {
+    choco install adobereader -y
     choco install pdfsam -y
 }
 
