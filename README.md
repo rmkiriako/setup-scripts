@@ -97,6 +97,7 @@ To run the installation:
 
 ### PDF
 
+* Adobe Reader
 * PDF Split and Merge
 
 ### Python
