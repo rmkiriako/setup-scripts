@@ -23,7 +23,13 @@ To run the installation:
 
 * Extract the contents of the zip file to your `C:\` drive such that there is a folder called `workstation-setup-windows` with all the scripts within it
 
-    * For example, there should be a `setup.ps1` file at `C:\workstation-setup-windows\setup.ps1`
+    * For example, there should be a `install.ps1` file at `C:\workstation-setup-windows\install.ps1`
+
+### Two-Part Installation
+
+The installation is split in two as some of the installations depend on tools being put on your [PATH](https://en.wikipedia.org/wiki/PATH_(variable)) which doesn't occur until after the initial installation is complete and a new command prompt is opened.
+
+#### Part 1: Initial Install
 
 * Open the command prompt **[as an administrator](http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1)**
 
@@ -31,7 +37,20 @@ To run the installation:
 
   ```
   cd C:\workstation-setup-windows
-  powershell -ExecutionPolicy Bypass -File setup.ps1
+  powershell -ExecutionPolicy Bypass -File install.ps1
+  exit
+  ```
+
+#### Part 2: Post Install
+
+* Open the command prompt **[as an administrator](http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1)**
+
+* Execute the below commands:
+
+  ```
+  cd C:\workstation-setup-windows
+  powershell -ExecutionPolicy Bypass -File post-install.ps1
+  exit
   ```
 
 ## What's Installed?

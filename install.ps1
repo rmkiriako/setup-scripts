@@ -1,5 +1,5 @@
 . 'C:\workstation-setup-windows\banner-function.ps1'
-. 'C:\workstation-setup-windows\install-functions.ps1'
+. 'C:\workstation-setup-windows\choco-install-functions.ps1'
 . 'C:\workstation-setup-windows\utilities.ps1'
 
 if ( (IsAdministrator) -eq $false) {
@@ -64,4 +64,4 @@ InstallUtilities
 Banner 'Installing Virtualization Tools'
 InstallVirtualizationTools
 
-Banner 'WORKSTATION SETUP IS COMPLETE'
+Banner 'CORE INSTALLATION IS COMPLETE. PLEASE RUN POST-INSTALLS'

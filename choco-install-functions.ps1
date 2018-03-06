@@ -17,10 +17,7 @@ function InstallChocolatey
 function InstallCloudTools
 {
     choco install cloudfoundry-cli -y
-
     choco install heroku-cli -y
-    C:\Program Files\Heroku\bin\heroku plugins:install heroku-cli-deploy
-    C:\Program Files\Heroku\bin\heroku plugins:install heroku-pg-extras
 }
 
 function InstallCommunicationTools
@@ -46,9 +43,6 @@ function InstallFileSharingTools
 function InstallJavascriptTools
 {
     choco install nodejs -y
-
-    npm install --global grunt-cli
-    npm install --global gulp-cli
 }
 
 function InstallJavaAndTools
@@ -72,8 +66,6 @@ function InstallMediaTools
 
 function InstallNetworkTools
 {
-    npm install newman --global;
-
     choco install postman -y
     choco install wireshark -y
 }
@@ -118,5 +110,4 @@ function InstallVirtualizationTools
     choco install virtualbox -y
 
     choco install vagrant -y
-    vagrant plugin install vagrant-vbguest
 }
